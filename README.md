@@ -27,8 +27,3 @@ TO START: json-server --watch db.json
 4. Reusable Components - Are we properly reusing components? Are we able to have reused components exhibit different behavior based on their parent component?
 
 5. Rendering - Is information rendered in the correct locations?
-
-## Bonus
-
-- Make it so you a user can only add a book to the book shelf once. No duplicate books
-- Make it so a user can also search for books in bookshelf
