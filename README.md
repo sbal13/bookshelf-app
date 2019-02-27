@@ -1,8 +1,11 @@
-##Deliverables
+## Deliverables
 
-The database of books can be found in a JSON-server, so before you start your React server, make sure to start your JSON-server on http://localhost:3005/stocks.
+The database of books can be found in a JSON-server. If you haven't already done so install json-server:
 
 TO INSTALL: npm install -g json-server
+
+Then start the json-server:
+
 TO START: json-server --watch db.json
 
 1. List all books
@@ -22,3 +25,8 @@ TO START: json-server --watch db.json
 3. Component lifecycle - Are the right component lifecycle methods used? Are they used for the correct purposes?
 
 4. Rendering - Is information rendered in the correct locations?
+
+## Bonus
+
+- Make it so you a user can only add a book to the book shelf once. No duplicate books
+- Make it so a user can also search for books in bookshelf
