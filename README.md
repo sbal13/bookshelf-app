@@ -24,7 +24,9 @@ TO START: json-server --watch db.json
 
 3. Component lifecycle - Are the right component lifecycle methods used? Are they used for the correct purposes?
 
-4. Rendering - Is information rendered in the correct locations?
+4. Reusable Components - Are we properly reusing components? Are we able to have reused components exhibit different behavior based on their parent component?
+
+5. Rendering - Is information rendered in the correct locations?
 
 ## Bonus
 
