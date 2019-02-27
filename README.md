@@ -8,22 +8,10 @@ Then start the json-server:
 
 TO START: json-server --watch db.json
 
-1. List all books
+1. Fetch to "http://localhost:3005/books" and list all books
 2. Clicking on a book in the Book List should add it to the Book Shelf
 3. Clicking on a book in the Book Shelf should remove it from the Book Shelf
 4. Each book can only be added to Book Shelf one time (Book Shelf should not have duplicate books)
 5. Add an input that allows the user to search through Book List and still add books to the Book Shelf
 
 ![bookshelf gif](bookshelf.gif)
-
-## Criteria
-
-1. Props and state - Is state maintained in the right components? Are the functions to change state defined and executed in the appropriate places? Are the appropriate props passed from component to component?
-
-2. Code structure and efficiency - Is the code clean and easy to read? Is functionality appropriately delegated between class and functional components?
-
-3. Component lifecycle - Are the right component lifecycle methods used? Are they used for the correct purposes?
-
-4. Reusable Components - Are we properly reusing components? Are we able to have reused components exhibit different behavior based on their parent component?
-
-5. Rendering - Is information rendered in the correct locations?
