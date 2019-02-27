@@ -1,8 +1,11 @@
 ##Deliverables
 
-The database of books can be found in a JSON-server, so before you start your React server, make sure to start your JSON-server on http://localhost:3005/books.
+The database of books can be found in a JSON-server. If you haven't already done so install json-server:
 
 TO INSTALL: npm install -g json-server
+
+Then start the json-server:
+
 TO START: json-server --watch db.json
 
 1. List all books
