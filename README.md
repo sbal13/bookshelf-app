@@ -1,6 +1,6 @@
 ##Deliverables
 
-The database of books can be found in a JSON-server, so before you start your React server, make sure to start your JSON-server on http://localhost:3005/stocks.
+The database of books can be found in a JSON-server, so before you start your React server, make sure to start your JSON-server on http://localhost:3005/books.
 
 TO INSTALL: npm install -g json-server
 TO START: json-server --watch db.json
