@@ -8,7 +8,7 @@ Then start the json-server:
 
 TO START: json-server --watch db.json
 
-1. List all books
+1. Fetch to "http://localhost:3005/books" and list all books
 2. Clicking on a book in the Book List should add it to the Book Shelf
 3. Clicking on a book in the Book Shelf should remove it from the Book Shelf
 4. Each book can only be added to Book Shelf one time (Book Shelf should not have duplicate books)
