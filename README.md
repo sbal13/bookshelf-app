@@ -1,4 +1,4 @@
-##Deliverables
+## Deliverables
 
 The database of books can be found in a JSON-server. If you haven't already done so install json-server:
 
@@ -26,7 +26,7 @@ TO START: json-server --watch db.json
 
 4. Rendering - Is information rendered in the correct locations?
 
-##Bonus:
+## Bonus:
 
 - Make it so you a user can only add a book to the book shelf once. No duplicate books
 - Make it so a user can also search for books in bookshelf
