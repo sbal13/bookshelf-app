@@ -2,11 +2,11 @@
 
 The database of books can be found in a JSON-server. If you haven't already done so install json-server:
 
-TO INSTALL: npm install -g json-server
+`TO INSTALL: npm install -g json-server`
 
 Then start the json-server:
 
-TO START: json-server --watch db.json
+`TO START: json-server --watch db.json`
 
 1. Make a GET request to `http://localhost:3005/books`. You should get a response that is an array of multiple book objects that look like this:
    `{
