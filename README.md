@@ -8,7 +8,7 @@ Then start the json-server:
 
 TO START: json-server --watch db.json
 
-1. Fetch to "http://localhost:3005/books". You should get a response that is an array of multiple book objects that look like this:
+1. Make a GET request to "http://localhost:3005/books". You should get a response that is an array of multiple book objects that look like this:
    {
    "id": 1,
    "title": "The Great Gatsby",
